@@ -12,7 +12,7 @@ import android.view.KeyEvent;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
+//check
     private WebView mWebView;
     int index = 0;
     private long lastTimeBackPressed;
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         mWebView = (WebView) findViewById(R.id.webView);
         mWebView.getSettings().setJavaScriptEnabled(true);
-        mWebView.loadUrl("https://wooyehuin.wixsite.com/artbrut ");
+        mWebView.loadUrl("http://www.artbrutkor.com/");
         mWebView.setWebChromeClient(new WebChromeClient());
         mWebView.setWebViewClient(new WebViewClientClass());
     }
