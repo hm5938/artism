@@ -12,7 +12,7 @@ import android.view.KeyEvent;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-//check
+
     private WebView mWebView;
     int index = 0;
     private long lastTimeBackPressed;
